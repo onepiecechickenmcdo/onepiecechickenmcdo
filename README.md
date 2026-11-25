@@ -21,7 +21,7 @@
 
 Our team placed **20th among 233 teams** in the Bifrost track. The event drew more than **3,600 participants**.
 
-### Contributions
+## Contributions
 
 1. **October 2026 · AsikaGo.** [Helped build the roadmap engine](https://github.com/HeyJudo/AsikaGo/pull/36) that guides small-business registrations in Pasig City.
 2. **November 2026 · Assay Research.** Helped build a platform for evaluating AI research agents. [View the project](https://github.com/HeyJudo/Assay-research).
