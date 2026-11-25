@@ -1,0 +1,31 @@
+name: Refresh boarding pass
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: refresh-boarding-pass
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Refresh public project and contribution data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update-profile.py
+      - name: Publish changes
+        run: |
+          git add README.md assets/airport-profile.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m 'Refresh boarding pass'
+          git push
