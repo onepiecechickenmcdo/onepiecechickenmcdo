@@ -1,24 +1,24 @@
-I’m **Krystelle M. Eledia**, an aspiring AI and machine learning engineer with experience in backend development. My recent work includes building APIs and evaluating AI research agents.
+I’m **Krystelle M. Eledia**, an aspiring AI and machine learning engineer. My recent work has focused on developing backend APIs and evaluating AI research agents.
 
 <p align="center">
   <img src="./assets/airport-profile.svg" alt="Krystelle M. Eledia’s boarding pass from Assay Research to Pokéfolio, plus projects and a 12-week public contribution log" width="100%">
 </p>
 
-- [**Assay Research**](https://github.com/HeyJudo/Assay-research) · Benchmarks AI research agents on repeatable tasks.
-- **Pokéfolio** · A Pokémon-inspired portfolio of my work.
-- [**AsikaGo**](https://github.com/HeyJudo/AsikaGo) · Guides small-business registration in Pasig City.
-- [**EMMA**](https://github.com/ppgabe/emma) · Helps teams monitor and manage emergency incidents.
+- [**Assay Research**](https://github.com/HeyJudo/Assay-research) · Compares AI research agents using repeatable tests.
+- **Pokéfolio** · My portfolio, with a Pokémon-inspired design.
+- [**AsikaGo**](https://github.com/HeyJudo/AsikaGo) · Guides small-business owners through registration in Pasig City.
+- [**EMMA**](https://github.com/ppgabe/emma) · Helps teams track and manage emergency incidents.
 <!-- BEGIN:recent-projects -->
 <!-- END:recent-projects -->
 
 **Assay Research at the Global AI Hackathon 2026**  
-Our team placed **20th out of 233 teams** in the Bifrost track. More than **3,600 people** joined the hackathon.
+Our team placed **20th among 233 teams** in the Bifrost track. The event drew more than **3,600 participants**.
 
 <!-- BEGIN:activity -->
 **Public activity, Sep 4–Nov 26, 2026** · 22 commits, 16 pull requests and 1 review.
 
 <details>
-<summary>Week-by-week counts</summary>
+<summary>Weekly contribution counts</summary>
 
 | Week starting | Contributions |
 | --- | ---: |

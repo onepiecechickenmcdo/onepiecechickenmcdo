@@ -192,7 +192,7 @@ def render_readme(text, repos, pokefolio, first, last, weeks, totals):
     return insert("activity", f"""**Public activity, {start}–{end}** · {summary}.
 
 <details>
-<summary>Week-by-week counts</summary>
+<summary>Weekly contribution counts</summary>
 
 | Week starting | Contributions |
 | --- | ---: |
