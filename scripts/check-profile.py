@@ -15,13 +15,12 @@ pokefolio = {"nameWithOwner": "example/pokefolio"}
 first, last = date(2026, 9, 4), date(2026, 11, 26)
 weeks = [1, *([0] * 10), 20]
 
-svg = ElementTree.fromstring(profile["render_svg"](root / "assets/airport-profile.svg", repos, first, last, weeks))
+svg = ElementTree.fromstring(profile["render_svg"](root / "assets/airport-profile.svg", repos))
 nodes = {node.get("id"): node for node in svg.iter() if node.get("id")}
 assert svg.get("viewBox") == "0 0 1200 1159"
-assert nodes["flight-log"].get("transform") == "translate(0 53)"
-assert nodes["contribution-total"].text == "21"
+assert nodes["route-map"].get("transform") == "translate(0 53)"
+assert "20th in the Bifrost track" in list(nodes["route-map"].itertext())
 assert "Research < tools" in list(nodes["recent-projects"].itertext())
-assert nodes["weekly-bars"][-1].get("height") == "78"
 
 readme = (root / "README.md").read_text(encoding="utf-8")
 generate = profile["render_readme"]

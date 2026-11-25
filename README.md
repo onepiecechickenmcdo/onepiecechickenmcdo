@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/airport-profile.svg" alt="Krystelle M. Eledia’s boarding pass from Assay Research to Pokéfolio, plus projects and a 12-week public contribution log" width="100%">
+  <img src="./assets/airport-profile.svg" alt="Krystelle M. Eledia’s boarding pass, project board, and contribution route map from AsikaGo through Assay Research to Pokéfolio" width="100%">
 </p>
 
 ## Current Focus
@@ -21,21 +21,15 @@
 
 Our team placed **20th among 233 teams** in the Bifrost track. The event drew more than **3,600 participants**.
 
-## Tech Stack
+### Contributions
 
-![Languages: Python, C#, and TypeScript. Backend: FastAPI and ASP.NET Core. Frontend: React. Data and automation: PostgreSQL and GitHub Actions.](./assets/tech-stack.svg)
-
-## Contributions
-
-### Route Map
-
-![AsikaGo’s registration roadmap in October 2026, Assay Research’s hackathon placement in November 2026, and Pokéfolio in development.](./assets/route-map.svg)
+#### Route Map
 
 1. **October 2026 · AsikaGo.** [Helped build the roadmap engine](https://github.com/HeyJudo/AsikaGo/pull/36) that guides small-business registrations in Pasig City.
 2. **November 2026 · Assay Research.** Helped build a platform for evaluating AI research agents. [View the project](https://github.com/HeyJudo/Assay-research).
 3. **In development · Pokéfolio.** A portfolio with a Pokémon-inspired design.
 
-### GitHub Activity
+#### GitHub Activity
 
 <!-- BEGIN:activity -->
 **Public activity, Sep 4–Nov 26, 2026** · 22 commits, 16 pull requests and 1 review.
@@ -60,3 +54,7 @@ Our team placed **20th among 233 teams** in the Bifrost track. The event drew mo
 
 </details>
 <!-- END:activity -->
+
+## Tech Stack
+
+![Languages: Python, C#, and TypeScript. Backend: FastAPI and ASP.NET Core. Frontend: Next.js, React, and Three.js. Data and automation: PostgreSQL, GitHub Actions, Codex, and Claude Code. 3D design: Blender.](./assets/tech-stack.svg)

@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="234" viewBox="0 0 1200 234" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="348" viewBox="0 0 1200 348" role="img" aria-labelledby="title desc">
   <title id="title">Tech stack</title>
-  <desc id="desc">Python, C#, TypeScript, FastAPI, ASP.NET Core, React, PostgreSQL, and GitHub Actions.</desc>
+  <desc id="desc">Python, C#, TypeScript, FastAPI, ASP.NET Core, Next.js, React, Three.js, PostgreSQL, GitHub Actions, Codex, Claude Code, and Blender.</desc>
   <style>
     .signal { fill: #567a70; animation: signal 1.35s ease-out both; }
     .second { animation-delay: .25s; }
     .third { animation-delay: .5s; }
     .fourth { animation-delay: .75s; }
+    .fifth { animation-delay: 1s; }
     @keyframes signal {
       0%, 100% { fill: #567a70; }
       42% { fill: #f1bb5a; }
@@ -14,21 +15,24 @@
       .signal { animation: none; }
     }
   </style>
-  <rect width="1200" height="234" fill="#191d24"/>
-  <rect x="72" y="20" width="1056" height="194" rx="10" fill="#12233d"/>
-  <path d="M600 42v150 M100 117h1000" stroke="#3b516d"/>
+  <rect width="1200" height="348" fill="#191d24"/>
+  <rect x="72" y="20" width="1056" height="308" rx="10" fill="#12233d"/>
+  <path d="M600 42v204 M100 117h1000 M100 246h1000" stroke="#3b516d"/>
   <g font-family="ui-monospace, Menlo, Consolas, monospace">
     <g fill="#a5bdd8" font-size="18" font-weight="700" letter-spacing="2">
       <text x="136" y="62">LANGUAGES</text>
       <text x="660" y="62">BACKEND</text>
       <text x="136" y="159">FRONTEND</text>
       <text x="660" y="159">DATA &amp; AUTOMATION</text>
+      <text x="136" y="282">3D DESIGN</text>
     </g>
     <g fill="#f7f3e9" font-size="27" font-weight="700">
       <text x="108" y="97">Python · C# · TypeScript</text>
       <text x="632" y="97">FastAPI · ASP.NET Core</text>
-      <text x="108" y="194">React</text>
+      <text x="108" y="194">Next.js · React · Three.js</text>
       <text x="632" y="194">PostgreSQL · GitHub Actions</text>
+      <text x="632" y="226">Codex · Claude Code</text>
+      <text x="108" y="316">Blender</text>
     </g>
   </g>
   <g aria-hidden="true">
@@ -36,5 +40,6 @@
     <circle class="signal second" cx="638" cy="56" r="6"/>
     <circle class="signal third" cx="114" cy="153" r="6"/>
     <circle class="signal fourth" cx="638" cy="153" r="6"/>
+    <circle class="signal fifth" cx="114" cy="276" r="6"/>
   </g>
 </svg>

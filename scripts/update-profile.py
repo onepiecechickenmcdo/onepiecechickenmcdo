@@ -107,7 +107,7 @@ def projects():
     return [repo for repo in eligible if repo != pokefolio][:3], pokefolio
 
 
-def render_svg(path, repos, first, last, weeks):
+def render_svg(path, repos):
     ET.register_namespace("", SVG)
     parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
     root = ET.parse(path, parser=parser).getroot()
@@ -118,14 +118,7 @@ def render_svg(path, repos, first, last, weeks):
     elements["background"].set("height", str(1106 + shift))
     for name in ("activity-clip", "activity-paper", "activity-grain"):
         elements[name].set("height", str(664 + shift))
-    elements["flight-log"].set("transform", f"translate(0 {shift})")
-    elements["first-day"].text = first.strftime("%b %d").upper()
-    elements["last-day"].text = last.strftime("%b %d").upper()
-    elements["contribution-total"].text = str(sum(weeks))
-    description = elements["profile-desc"]
-    description.text = description.text.split(" The flight log shows", 1)[0] + (
-        f" The flight log shows {sum(weeks)} public contributions over 12 weeks."
-    )
+    elements["route-map"].set("transform", f"translate(0 {shift})")
     board = elements["recent-projects"]
     for child in list(board):
         board.remove(child)
@@ -136,11 +129,6 @@ def render_svg(path, repos, first, last, weeks):
         title.text = shorten(repo["name"], 23)
         label = ET.SubElement(board, f"{{{SVG}}}text", {"x": "395", "y": str(y)})
         label.text = shorten(repo["description"] or "Public repository", 54)
-    scale = 78 / max(13, max(weeks))
-    for index, (bar, count) in enumerate(zip(elements["weekly-bars"], weeks, strict=True), 1):
-        height = max(3, round(count * scale))
-        bar.attrib.update(y=str(945 - height), height=str(height), fill="#c8402a" if count else "#a59c8c")
-        bar.find(f"{{{SVG}}}title").text = f"Week {index}: {count} {'contribution' if count == 1 else 'contributions'}"
     ET.indent(root, space="  ")
     return ET.tostring(root, encoding="unicode") + "\n"
 
@@ -210,7 +198,7 @@ def main():
     repos, pokefolio = projects()
     image = ROOT / "assets/airport-profile.svg"
     readme = ROOT / "README.md"
-    updated_svg = render_svg(image, repos, first, last, weeks)
+    updated_svg = render_svg(image, repos)
     updated_readme = render_readme(readme.read_text(encoding="utf-8"), repos, pokefolio, first, last, weeks, totals)
     image.write_text(updated_svg, encoding="utf-8", newline="\n")
     readme.write_text(updated_readme, encoding="utf-8", newline="\n")
