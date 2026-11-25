@@ -196,7 +196,7 @@ def main():
     first = last - timedelta(days=83)
     weeks, totals = activity(first, now)
     repos, pokefolio = projects()
-    image = ROOT / "assets/airport-profile.svg"
+    image = ROOT / "assets/airport-tickets.svg"
     readme = ROOT / "README.md"
     updated_svg = render_svg(image, repos)
     updated_readme = render_readme(readme.read_text(encoding="utf-8"), repos, pokefolio, first, last, weeks, totals)

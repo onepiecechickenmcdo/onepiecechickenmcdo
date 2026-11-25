@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/airport-profile.svg" alt="Krystelle M. Eledia’s boarding pass, project board, and contribution route map from AsikaGo through Assay Research to Pokéfolio" width="100%">
+  <img src="./assets/airport-tickets.svg" alt="Krystelle M. Eledia’s boarding pass, project board, and contribution route map from AsikaGo through Assay Research to Pokéfolio" width="100%">
 </p>
 
 ## Current Focus
