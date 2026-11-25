@@ -1,8 +1,14 @@
-I’m **Krystelle M. Eledia**, an aspiring AI and machine learning engineer. My recent work has focused on developing backend APIs and evaluating AI research agents.
-
 <p align="center">
   <img src="./assets/airport-profile.svg" alt="Krystelle M. Eledia’s boarding pass from Assay Research to Pokéfolio, plus projects and a 12-week public contribution log" width="100%">
 </p>
+
+## Current Focus
+
+- Build out Pokéfolio, my Pokémon-inspired portfolio.
+- Deepen my experience in backend engineering and AI agent evaluation.
+- Explore an idea for a healthcare software project.
+
+## Projects
 
 - [**Assay Research**](https://github.com/HeyJudo/Assay-research) · Compares AI research agents using repeatable tests.
 - **Pokéfolio** · My portfolio, with a Pokémon-inspired design.
@@ -11,8 +17,25 @@ I’m **Krystelle M. Eledia**, an aspiring AI and machine learning engineer. My 
 <!-- BEGIN:recent-projects -->
 <!-- END:recent-projects -->
 
-**Assay Research at the Global AI Hackathon 2026**  
+### Assay Research at the Global AI Hackathon 2026
+
 Our team placed **20th among 233 teams** in the Bifrost track. The event drew more than **3,600 participants**.
+
+## Tech Stack
+
+![Languages: Python, C#, and TypeScript. Backend: FastAPI and ASP.NET Core. Frontend: React. Data and automation: PostgreSQL and GitHub Actions.](./assets/tech-stack.svg)
+
+## Contributions
+
+### Route Map
+
+![AsikaGo’s registration roadmap in October 2026, Assay Research’s hackathon placement in November 2026, and Pokéfolio in development.](./assets/route-map.svg)
+
+1. **October 2026 · AsikaGo.** [Helped build the roadmap engine](https://github.com/HeyJudo/AsikaGo/pull/36) that guides small-business registrations in Pasig City.
+2. **November 2026 · Assay Research.** Helped build a platform for evaluating AI research agents. [View the project](https://github.com/HeyJudo/Assay-research).
+3. **In development · Pokéfolio.** A portfolio with a Pokémon-inspired design.
+
+### GitHub Activity
 
 <!-- BEGIN:activity -->
 **Public activity, Sep 4–Nov 26, 2026** · 22 commits, 16 pull requests and 1 review.
