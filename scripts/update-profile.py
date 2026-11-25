@@ -116,8 +116,8 @@ def render_svg(path, repos):
     root.set("viewBox", f"0 0 1200 {1106 + shift}")
     root.set("height", str(1106 + shift))
     elements["background"].set("height", str(1106 + shift))
-    for name in ("activity-clip", "activity-paper", "activity-grain"):
-        elements[name].set("height", str(664 + shift))
+    for name in ("projects-clip", "projects-paper", "projects-grain"):
+        elements[name].set("height", str(365 + shift))
     elements["route-map"].set("transform", f"translate(0 {shift})")
     board = elements["recent-projects"]
     for child in list(board):

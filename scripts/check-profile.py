@@ -19,6 +19,10 @@ svg = ElementTree.fromstring(profile["render_svg"](root / "assets/airport-profil
 nodes = {node.get("id"): node for node in svg.iter() if node.get("id")}
 assert svg.get("viewBox") == "0 0 1200 1159"
 assert nodes["route-map"].get("transform") == "translate(0 53)"
+projects = nodes["projects-clip"]
+route = nodes["route-card"][0]
+assert int(route.get("y")) + 53 - (int(projects.get("y")) + int(projects.get("height"))) == 22
+assert nodes["route-map"].get("clip-path") == "url(#route-card)"
 assert "20th in the Bifrost track" in list(nodes["route-map"].itertext())
 assert "Research < tools" in list(nodes["recent-projects"].itertext())
 
