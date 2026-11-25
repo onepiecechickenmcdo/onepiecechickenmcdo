@@ -23,8 +23,6 @@ Our team placed **20th among 233 teams** in the Bifrost track. The event drew mo
 
 ### Contributions
 
-#### Route Map
-
 1. **October 2026 · AsikaGo.** [Helped build the roadmap engine](https://github.com/HeyJudo/AsikaGo/pull/36) that guides small-business registrations in Pasig City.
 2. **November 2026 · Assay Research.** Helped build a platform for evaluating AI research agents. [View the project](https://github.com/HeyJudo/Assay-research).
 3. **In development · Pokéfolio.** A portfolio with a Pokémon-inspired design.
