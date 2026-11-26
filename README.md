@@ -30,25 +30,25 @@ Our team placed **20th among 233 teams** in the Bifrost track. The event drew mo
 #### GitHub Activity
 
 <!-- BEGIN:activity -->
-**Public activity, Sep 4–Nov 26, 2026** · 22 commits, 16 pull requests and 1 review.
+**Public activity, Sep 5–Nov 27, 2026** · 22 commits, 16 pull requests and 1 review.
 
 <details>
 <summary>Weekly contribution counts</summary>
 
 | Week starting | Contributions |
 | --- | ---: |
-| Sep 4 | 0 |
-| Sep 11 | 0 |
-| Sep 18 | 0 |
-| Sep 25 | 13 |
-| Oct 2 | 0 |
-| Oct 9 | 7 |
-| Oct 16 | 2 |
-| Oct 23 | 4 |
-| Oct 30 | 2 |
-| Nov 6 | 0 |
-| Nov 13 | 7 |
-| Nov 20 | 4 |
+| Sep 5 | 0 |
+| Sep 12 | 0 |
+| Sep 19 | 0 |
+| Sep 26 | 13 |
+| Oct 3 | 1 |
+| Oct 10 | 6 |
+| Oct 17 | 2 |
+| Oct 24 | 4 |
+| Oct 31 | 2 |
+| Nov 7 | 3 |
+| Nov 14 | 4 |
+| Nov 21 | 4 |
 
 </details>
 <!-- END:activity -->
